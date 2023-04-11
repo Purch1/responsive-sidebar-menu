@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=================== CSS ================= -->
+    <link rel="stylesheet" href="style.css">
+
+    <!--=================== Boxicons CSS ================= -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Responsive Sidebar Menu | Dark and Light mode</title>
+</head>
+
+<body>
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="./image/logo.png" alt="logo">
+                </span>
+
+                <div class="text header-text">
+                    <span class="name">Purch</span>
+                    <span class="profession">Technologies</span>
+                </div>
+            </div> 
+
+            <i class="bx bx-chevron-right toggle"></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+                <li class="search-box">
+                    <i class='bx bx-search icons' ></i>
+                        <input type="text" placeholder="Search...">
+                </li>
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-home-alt icons' ></i>
+                            <span class="text nav-text">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-message icons' ></i>
+                            <span class="text nav-text">Messages</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-bell icons' ></i>
+                            <span class="text nav-text">Notification</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-pie-chart-alt icons' ></i>
+                            <span class="text nav-text">Analytics</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-heart icons' ></i>
+                            <span class="text nav-text">Likes</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-wallet icons' ></i>
+                            <span class="text nav-text">Wallet</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+                <li class="">
+                    <a href="#">
+                        <i class='bx bx-log-out icons' ></i>
+                        <span class="text nav-text">Logout </span>
+                    </a>
+                </li>
+                
+                <li class="mode">
+                    <div class="moon-sun">
+                        <i class='bx bx-moon icons moon' ></i>
+                        <i class='bx bx-sun icons sun' ></i>
+                    </div>
+                    <span class="mode-text text">Dark Mode</span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"> </span>
+                    </div>
+                </li>
+
+            </div>
+        </div>
+    </nav>
+
+    <section class="home">
+        <div class="text">Dashboard Comming soon...</div>
+    </section>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
